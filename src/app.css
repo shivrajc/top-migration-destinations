@@ -1,0 +1,33 @@
+@import url("https://use.typekit.net/vgx2vhc.css");
+
+:root {
+  font-family: "adelle-sans", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+/* 
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  --grid-line-color: rgb(112, 112, 112);
+  --card-header-background-color: hsl(160, 12%, 90%);
+  --page-background-color: hsl(160, 12%, 96%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  background-color: var(--page-background-color);
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 20px 20px 20px ;
+}
